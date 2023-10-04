@@ -14,6 +14,16 @@
 from Solution import *
 from time import process_time 
 
+import logging, sys
+logging.basicConfig(
+    stream=sys.stdout, 
+                    # filename="A3.log",
+                    # filemode='a',
+                    level=logging.INFO, format='[%(asctime)s] {%(filename)s:%(lineno)d} %(levelname)s - %(message)s',)
+
+logger = logging.getLogger(__name__)
+
+
 class Prime():
     def __init__(self):
         self._testBench()
