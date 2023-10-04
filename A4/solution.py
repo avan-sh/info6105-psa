@@ -30,6 +30,19 @@ class Slist:
     # YOU CAN HAVE ANY NUMBER OF PRIVATE FUNCTIONS YOU WANT
     #############################
 
+    def append(self, val):
+        # adds a new element towards the end of SList
+        new_node = ListNode(val=val, next=None)
+        if self._first is None:
+            self._first = new_node
+            self._last = self._first
+            self._len += 1
+        else:
+            self._last.next = new_node
+            self._last = new_node
+            self._len += 1
+
+
 
 ############################################################
 #  class  MyStack
@@ -42,6 +55,32 @@ class MyStack:
         # NOTHING CAN BE CHANGED HERE
         self._s = Slist()
 
+    
+    def push(self, x: int) -> None:
+        node = ListNode(x)
+        node.next = self._s._first
+        self._s._first = node
+        self._s._len += 1
+        pass
+        
+
+    def pop(self) -> int:
+        head = self._s._first
+        if head:
+            head_val = self._s._first.val
+            self._s._first = self._s._first.next
+            self._s._len += -1
+            return head_val
+        else:
+            return None
+        
+
+    def top(self) -> int:
+        return self._s._first.val
+        
+
+    def empty(self) -> bool:
+        return self._s._len == 0
 
 ############################################################
 #  class  MyQueue
@@ -53,6 +92,41 @@ class MyQueue:
     def __init__(self):
         # NOTHING CAN BE CHANGED HERE
         self._s = Slist()
+
+    def push(self, x: int) -> None:
+        node = ListNode(x)
+        if self._s._last==None:
+            self._s._first=node
+            self._s._last=node
+            self._s._len += 1
+        else:
+            self._s._last.next = node
+            self._s._last = node
+            self._s._len += 1
+
+
+    def pop(self) -> int:
+        print(self._s._first)
+        if self._s._first == None:
+            return None
+        first_val = self._s._first.val
+        next_node = self._s._first.next
+        self._s._first = next_node
+        self._s._len += -1
+        if self._s._len == 0:
+            self._s._last = None
+        return first_val
+
+
+    def peek(self) -> int:
+        print(self._s._first)
+        if self._s._first == None:
+            return None
+        return self._s._first.val
+        # return 1
+        
+    def empty(self) -> bool:
+        return self._s._len==0
 
 
 ############################################################
