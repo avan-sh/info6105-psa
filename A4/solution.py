@@ -180,22 +180,34 @@ class MyCircularQueue:
         self._s = Slist()
 
     def enQueue(self, value: int) -> bool:
-        pass
+        if len(self._s) == self._K:
+            return False
+        else:
+            self._s.add_last(value)
+            return True
 
     def deQueue(self) -> bool:
-        pass
+        if len(self._s) ==0:
+            return False
+        else:
+            self._s.remove_first()
+            return True
 
     def Front(self) -> int:
-        pass
+        if len(self._s)==0:
+            return -1
+        return self._s.first_value()
 
     def Rear(self) -> int:
-        pass
+        if len(self._s)==0:
+            return -1
+        return self._s.last_value()
 
     def isEmpty(self) -> bool:
-        pass
+        return (len(self._s) == 0)
 
     def isFull(self) -> bool:
-        pass
+        return len(self._s) == self._K
 
 
 ############################################################
