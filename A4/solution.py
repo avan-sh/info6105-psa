@@ -88,6 +88,7 @@ class Slist:
             prev = current
             current = current.next
         self._last = prev
+        self._last.next = None
         self._len += -1
         return True
 
@@ -187,7 +188,7 @@ class MyCircularQueue:
             return True
 
     def deQueue(self) -> bool:
-        if len(self._s) ==0:
+        if len(self._s)==0:
             return False
         else:
             self._s.remove_first()
@@ -223,25 +224,47 @@ class MyCircularDeque:
         self._s = Slist()
 
     def insertFront(self, value: int) -> bool:
-        pass
+        if len(self._s) == self._K:
+            return False
+        else:
+            self._s.add_first(value)
+            return True
 
     def insertLast(self, value: int) -> bool:
-        pass
+        if len(self._s) == self._K:
+            return False
+        else:
+            self._s.add_last(value)
+            return True
 
     def deleteFront(self) -> bool:
-        pass
+        if len(self._s)==0:
+            return False
+        else:
+            self._s.remove_first()
+            return True
+        
 
     def deleteLast(self) -> bool:
-        pass
+        if len(self._s)==0:
+            return False
+        else:
+            self._s.remove_last()
+            return True
 
     def getFront(self) -> int:
-        pass
+        if len(self._s)==0:
+            return -1
+        return self._s.first_value()
 
     def getRear(self) -> int:
-        pass
+        if len(self._s)==0:
+            return -1
+        return self._s.last_value()
 
     def isEmpty(self) -> bool:
-        pass
+        return len(self._s) == 0
 
     def isFull(self) -> bool:
-        pass
+        return len(self._s) == self._K
+
