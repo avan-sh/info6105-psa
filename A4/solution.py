@@ -143,43 +143,27 @@ class MyStack:
 
 # https://leetcode.com/problems/implement-queue-using-stacks/
 ###########################################################
+
+
 class MyQueue:
     def __init__(self):
         # NOTHING CAN BE CHANGED HERE
         self._s = Slist()
 
     def push(self, x: int) -> None:
-        node = ListNode(x)
-        if self._s._last == None:
-            self._s._first = node
-            self._s._last = node
-            self._s._len += 1
-        else:
-            self._s._last.next = node
-            self._s._last = node
-            self._s._len += 1
+        self._s.add_last(x)
 
     def pop(self) -> int:
-        print(self._s._first)
-        if self._s._first == None:
-            return None
-        first_val = self._s._first.val
-        next_node = self._s._first.next
-        self._s._first = next_node
-        self._s._len += -1
-        if self._s._len == 0:
-            self._s._last = None
+        first_val = self._s.first_value()
+        if first_val is not None:
+            self._s.remove_first()
         return first_val
 
     def peek(self) -> int:
-        print(self._s._first)
-        if self._s._first == None:
-            return None
-        return self._s._first.val
-        # return 1
+        return self._s.first_value()
 
     def empty(self) -> bool:
-        return self._s._len == 0
+        return len(self._s) == 0
 
 
 ############################################################
