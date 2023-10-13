@@ -1,5 +1,40 @@
 from typing import List
 
+class ProfitResult:
+    def __init__(self, profit, buy_day, sell_day) -> None:
+        assert buy_day <= sell_day
+        self.buy_day = buy_day
+        self.sell_day = sell_day
+        self.profit = profit
+        pass
+
+    def __repr__(self) -> str:
+        return f"[profit:{self.profit}, buy on: {self.buy_day}, sell_on: {self.sell_day}]"
+    
+    def add_days_index(self, index):
+        # updated buy & sell days by a set index
+        self.buy_day += index
+        self.sell_day += index
+        return self
+
+    def __eq__(self, other):
+        return self.profit == other.profit
+    
+    def __ne__(self, other):
+        return self.profit != other.profit
+    
+    def __lt__(self, other):
+        return self.profit < other.profit
+    
+    def __gt__(self, other):
+        return self.profit > other.profit
+
+    def __le__(self, other):
+        return self.profit <= other.profit
+    
+    def __ge__(self, other):
+        return self.profit >= other.profit
+
 
 class Solution:
     def __init__(self):
@@ -22,6 +57,42 @@ class Solution:
     #############################################
     # All public function here. 
     #############################################
+    class ProfitResult:
+        def __init__(self, profit, buy_day, sell_day) -> None:
+            assert buy_day <= sell_day
+            self.buy_day = buy_day
+            self.sell_day = sell_day
+            self.profit = profit
+            pass
+
+        def __repr__(self) -> str:
+            return f"[profit:{self.profit}, buy on: {self.buy_day}, sell_on: {self.sell_day}]"
+        
+        def add_days_index(self, index):
+            # updated buy & sell days by a set index
+            self.buy_day += index
+            self.sell_day += index
+            return self
+
+        def __eq__(self, other):
+            return self.profit == other.profit
+        
+        def __ne__(self, other):
+            return self.profit != other.profit
+        
+        def __lt__(self, other):
+            return self.profit < other.profit
+        
+        def __gt__(self, other):
+            return self.profit > other.profit
+
+        def __le__(self, other):
+            return self.profit <= other.profit
+        
+        def __ge__(self, other):
+            return self.profit >= other.profit
+
+
 
     ########################################
     # TIME:THETA(N^2)
@@ -116,7 +187,7 @@ class Solution:
             return profit3
 
     def div_conq_calculate_max_profit_buy_day_sell_day(self, prices, work):
-        
+        work += 1
         total_days = len(prices)
         if total_days<=2:
             profit, best_buy_day, best_sell_day = self.base_case_lists(prices)
