@@ -56,6 +56,41 @@ class L0322:
     ############################################################
     def _alg(self):
         print("WRITE CODE")
+        # self._v  # Array of least number of coins for val
+        # self._k  #Val of highest val'd coin to start giving
+        # Array _v, _k gives the best values & highest coin
+        # This is the memoized output updated as calculated
+        self._v, self._k = [None] * (self._n+1), [None] * (self._n+1)
+        self._v[0], self._k[0] = 0, 0
+        total_amount = self._n
+        for i in range(1,total_amount+1):
+            # print(i)
+            vals = []
+            for coin_val in self._d:
+                pending_val = i - coin_val
+                self._increment_work()
+                if pending_val<0:
+                    continue #skip if pending_val is -ve
+                # print(f"pending_val: {pending_val}, coin_val: {coin_val}")
+                least_coin_pending_val = self._v[pending_val]
+                if least_coin_pending_val==-1:
+                    continue #skip if pending_val can't be achieved
+                total_coin = least_coin_pending_val + 1
+                vals.append((total_coin, coin_val))
+            if len(vals)==0: 
+                self._v[i] = -1
+                self._k[i] = 0
+                continue # if 
+            else:
+                # get the best valued ordered pair
+                best_val = min(vals, key=lambda x: x[0])
+                # print(f"least coins for {i}: {best_val[0]} starting with coin_val {best_val[1]}")
+                self._v[i] = best_val[0] #total_coin
+                self._k[i] = best_val[1] #coin_val
+            
+            # print(f"least_coins: {self._v}")
+            # print(f"coin_val: {self._k}")
+
 
     ############################################################
     # NOTHING CAN BE CHANGED IN THIS ROUTINE BELOW
@@ -83,5 +118,21 @@ class L0322:
     # WRITE CODE BELOW
     ############################################################
     def _get_solution1(self,p:'int'):
-        print("WRITE CODE")
+        # print("WRITE CODE")
+        remain, given = p, 0
+        i = 1
+        while remain!=0:
+            start_coin = self._k[remain]
+            if start_coin==0:
+                #only add when getting printing for original value
+                if p==self._n:self._ans.append(-1)
+                break
+            given += start_coin
+            remain += -start_coin
+            print(f"{i} : Give coin {start_coin} . So far you have given= {given} .Remaining to give {remain}")
+            #only add when getting printing for original value
+            if p==self._n:self._ans.append(start_coin)
+            # 1 : Give coin 1 . So far you have given= 1 .Remaining to give 46
+            # import time
+            # time.sleep(0.1)
         
