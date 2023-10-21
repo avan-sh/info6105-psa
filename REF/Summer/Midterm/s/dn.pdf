@@ -1,0 +1,383 @@
+%PDF-1.0
+1 0 obj
+<<
+/Creator (Mayura Draw 4.5)
+>>
+endobj
+2 0 obj
+<<
+/Type /Catalog
+/Pages 4 0 R
+/Outlines 3 0 R
+>>
+endobj
+3 0 obj
+<<
+/Type /Outlines
+/Count 0
+>>
+endobj
+4 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [ 5 0 R ]
+>>
+endobj
+5 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/MediaBox [ -514 -315 784 1229 ]
+/Resources <<
+/ProcSet 6 0 R
+/XObject 9 0 R
+/Font 10 0 R
+>>
+/Contents 7 0 R
+>>
+endobj
+6 0 obj
+[ /PDF /Text ]
+endobj
+7 0 obj
+<< /Length 8 0 R >>
+stream
+1 1 1 rg
+1 0 0 rg
+BT
+/F1 48 Tf
+1 0 0 1 -504.7 1167 Tm
+0 Tw
+(Find duplicate numbers in a given list a) Tj
+ET
+BT
+/F1 48 Tf
+1 0 0 1 -504.7 1115 Tm
+0 Tw
+(  1. List a, of size of n, given) Tj
+ET
+BT
+/F1 48 Tf
+1 0 0 1 -504.7 1063 Tm
+0 Tw
+(  2. Each list element is between 0 to \(n-1\)) Tj
+ET
+BT
+/F1 48 Tf
+1 0 0 1 -504.7 1011 Tm
+0 Tw
+( ) Tj
+ET
+0 0 0 rg
+BT
+/F1 48 Tf
+1 0 0 1 -462 895.9 Tm
+0 Tw
+(0 1 2 3) Tj
+ET
+BT
+/F1 48 Tf
+1 0 0 1 -462 843.9 Tm
+0 Tw
+(3 2 1 0) Tj
+ET
+BT
+/F1 48 Tf
+1 0 0 1 -425.7 953.5 Tm
+0 Tw
+(n = 4) Tj
+ET
+BT
+/F1 48 Tf
+1 0 0 1 -452.4 796.7 Tm
+0 Tw
+(No dup) Tj
+ET
+BT
+/F1 48 Tf
+1 0 0 1 -124.9 953.5 Tm
+0 Tw
+(n = 4) Tj
+ET
+BT
+/F1 48 Tf
+1 0 0 1 -124.9 901.5 Tm
+0 Tw
+() Tj
+ET
+BT
+/F1 48 Tf
+1 0 0 1 -149.5 897 Tm
+0 Tw
+(0 1 2 3) Tj
+ET
+BT
+/F1 48 Tf
+1 0 0 1 -149.5 845 Tm
+0 Tw
+(2 3 1 3) Tj
+ET
+BT
+/F1 48 Tf
+1 0 0 1 -149.5 802 Tm
+0 Tw
+(duplicate {3}) Tj
+ET
+BT
+/F1 48 Tf
+1 0 0 1 -440.7 635.6 Tm
+0 Tw
+() Tj
+ET
+BT
+/F1 48 Tf
+1 0 0 1 -354.4 708.8 Tm
+0 Tw
+(0   1   2   3   4   5   6) Tj
+ET
+BT
+/F1 48 Tf
+1 0 0 1 -354.4 656.8 Tm
+0 Tw
+(1   2   3   1   3   6   6) Tj
+ET
+BT
+/F1 48 Tf
+1 0 0 1 -354.4 604.8 Tm
+0 Tw
+(duplicate {1,3,6}) Tj
+ET
+1 0 0 rg
+BT
+/F1 48 Tf
+1 0 0 1 -430.1 465.8 Tm
+0 Tw
+(Goal:) Tj
+ET
+BT
+/F1 48 Tf
+1 0 0 1 -430.1 413.8 Tm
+0 Tw
+(  1. Collect all duplicates exactly once in the list d) Tj
+ET
+BT
+/F1 48 Tf
+1 0 0 1 -319.5 333.7 Tm
+0 Tw
+(0   1   2) Tj
+ET
+BT
+/F1 48 Tf
+1 0 0 1 -319.5 281.7 Tm
+0 Tw
+(1   1   1) Tj
+ET
+BT
+/F1 48 Tf
+1 0 0 1 -319.5 229.7 Tm
+0 Tw
+(d = {1,1}) Tj
+ET
+0 0 0 rg
+BT
+/F1 48 Tf
+1 0 0 1 136.4 349.4 Tm
+0 Tw
+(0   1   2) Tj
+ET
+BT
+/F1 48 Tf
+1 0 0 1 136.4 297.4 Tm
+0 Tw
+(1   1   1) Tj
+ET
+BT
+/F1 48 Tf
+1 0 0 1 136.4 245.4 Tm
+0 Tw
+(d = {1}) Tj
+ET
+1 1 1 rg
+1 0 0 RG
+3 w
+-433.308 318.784 m
+-350.388 257.864 l
+S
+1 0 0 rg
+0 w
+-331.047 243.654 m
+-352.806 259.64 l
+-347.477 266.893 l
+-331.047 243.654 l
+-358.135 252.387 l
+-352.806 259.64 l
+-331.047 243.654 l
+f*
+BT
+/F1 48 Tf
+1 0 0 1 -479.2 240.8 Tm
+0 Tw
+(wrong) Tj
+ET
+BT
+/F1 48 Tf
+1 0 0 1 -389.3 184 Tm
+0 Tw
+() Tj
+ET
+BT
+/F1 48 Tf
+1 0 0 1 -389.3 132 Tm
+0 Tw
+(2. Given list a should be intact at the end) Tj
+ET
+BT
+/F1 48 Tf
+1 0 0 1 -389.3 79.96 Tm
+0 Tw
+(   of your algorithm) Tj
+ET
+BT
+/F1 48 Tf
+1 0 0 1 -389.3 27.96 Tm
+0 Tw
+(3. We need O\(n\) time and O\(1\) space algorithm) Tj
+ET
+BT
+/F1 28 Tf
+1 0 0 1 -265 -74.11 Tm
+0 Tw
+( Implement O\(n\) time and O\(1\) space algorithm) Tj
+ET
+BT
+/F1 28 Tf
+1 0 0 1 -254.3 -116.7 Tm
+0 Tw
+(You cannot use ay library functions like set/map etc.) Tj
+ET
+BT
+/F1 28 Tf
+1 0 0 1 -254.3 -146.7 Tm
+0 Tw
+(Must use only Python list []) Tj
+ET
+BT
+/F1 28 Tf
+1 0 0 1 -220.7 -298.2 Tm
+0 Tw
+() Tj
+ET
+1 1 1 rg
+0 0 0 RG
+3 w
+-301.805 -38.9426 m
+-301.805 -189.722 l
+520.232 -189.722 l
+520.232 -38.9426 l
+-301.805 -38.9426 l
+s
+-485.123 1023.4 m
+-485.123 776.974 l
+-244.706 776.974 l
+-244.706 1023.4 l
+-485.123 1023.4 l
+s
+-172.581 1021.9 m
+-172.581 781.482 l
+176.024 781.482 l
+176.024 1021.9 l
+-172.581 1021.9 l
+s
+-396.47 764.953 m
+-396.47 586.143 l
+260.17 586.143 l
+260.17 764.953 l
+-396.47 764.953 l
+s
+1 0 0 RG
+-403.884 189.818 m
+-403.884 68.4298 l
+643.388 68.4298 l
+643.388 189.818 l
+-403.884 189.818 l
+s
+endstream
+endobj
+8 0 obj
+3331
+endobj
+10 0 obj
+<<
+/F1 11 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F1
+/BaseFont /ComicSansMS,Bold
+/Encoding /WinAnsiEncoding
+/FirstChar 30
+/LastChar 255
+/Widths [ 500 500 434 238 438 843 693 820 654 434 366 366 530 610 434 610
+ 434 512 610 610 610 610 610 610 610 610 610 610 434 434 610 610
+ 610 566 931 731 630 619 722 625 607 680 768 546 665 611 551 883
+ 813 798 533 876 640 693 696 737 675 1040 724 635 693 376 550 376
+ 610 627 556 556 593 514 587 559 508 531 578 280 403 540 274 777
+ 523 526 535 520 480 487 471 520 486 684 590 553 538 366 421 366
+ 610 500 619 500 434 589 430 675 610 597 556 1241 693 610 1194 500
+ 693 500 500 226 226 434 434 610 441 883 556 883 507 610 897 500
+ 538 635 476 238 610 793 610 610 421 635 556 795 610 639 610 610
+ 795 627 610 610 610 610 556 610 761 610 556 610 610 639 610 610
+ 610 566 731 731 731 731 731 731 1087 619 625 625 625 625 546 546
+ 546 546 722 813 798 798 798 798 798 610 798 737 737 737 737 635
+ 521 534 556 556 556 556 556 556 912 514 559 559 559 559 280 280
+ 280 280 509 523 526 526 526 526 526 610 533 520 520 520 520 553
+ 535 553]
+/FontDescriptor 12 0 R
+>>
+endobj
+12 0 obj
+<<
+/Type /FontDescriptor
+/FontName /ComicSansMS,Bold
+/FontBBox [ -337 -303 2867 1102 ]
+/Ascent 1102
+/Descent -292
+/CapHeight 1102
+/XHeight 881
+/ItalicAngle 0
+/Flags 42
+/StemV 120
+>>
+endobj
+9 0 obj
+<<
+>>
+endobj
+xref
+0 13
+0000000000 65535 f
+0000000010 00000 n
+0000000063 00000 n
+0000000135 00000 n
+0000000187 00000 n
+0000000253 00000 n
+0000000422 00000 n
+0000000455 00000 n
+0000003843 00000 n
+0000005245 00000 n
+0000003866 00000 n
+0000003904 00000 n
+0000005033 00000 n
+trailer
+<<
+/Size 13
+/Root 2 0 R
+/Info 1 0 R
+>>
+startxref
+5270
+%%EOF
