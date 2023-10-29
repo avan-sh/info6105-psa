@@ -1,0 +1,555 @@
+%PDF-1.0
+1 0 obj
+<<
+/Creator (Mayura Draw 4.5)
+>>
+endobj
+2 0 obj
+<<
+/Type /Catalog
+/Pages 4 0 R
+/Outlines 3 0 R
+>>
+endobj
+3 0 obj
+<<
+/Type /Outlines
+/Count 0
+>>
+endobj
+4 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [ 5 0 R ]
+>>
+endobj
+5 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/MediaBox [ -842 -259 167 1222 ]
+/Resources <<
+/ProcSet 6 0 R
+/XObject 9 0 R
+/Font 10 0 R
+>>
+/Contents 7 0 R
+>>
+endobj
+6 0 obj
+[ /PDF /Text ]
+endobj
+7 0 obj
+<< /Length 8 0 R >>
+stream
+1 1 1 rg
+1 0 0 rg
+BT
+/F1 36 Tf
+1 0 0 1 -418 1172 Tm
+0 Tw
+("I want maximum marks") Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -418 1133 Tm
+0 Tw
+() Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -418 1094 Tm
+0 Tw
+() Tj
+ET
+1 1 1 rg
+4 w
+-446.51 1089.47 m
+-446.51 1036.12 l
+106.682 1036.12 l
+106.682 1089.47 l
+-446.51 1089.47 l
+s
+-398.96 1085.99 m
+-398.96 1040.76 l
+S
+-346.76 1087.15 m
+-346.76 1041.92 l
+S
+-298.06 1083.67 m
+-298.06 1038.44 l
+S
+-244.66 1088.31 m
+-244.66 1043.08 l
+S
+54.54 1085.99 m
+54.54 1040.76 l
+S
+0 0 0 rg
+BT
+/F2 12 Tf
+1 0 0 1 -426.8 1103 Tm
+0 Tw
+() Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -432.6 1101 Tm
+0 Tw
+(0) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -386.2 1100 Tm
+0 Tw
+(1) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 46.36 1101 Tm
+0 Tw
+(n-1) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -445.3 1047 Tm
+0 Tw
+(30) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -392 1047 Tm
+0 Tw
+(99) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -337.5 1101 Tm
+0 Tw
+(2) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -340.9 1052 Tm
+0 Tw
+(80) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 59.19 1052 Tm
+0 Tw
+(57) Tj
+ET
+1 1 1 rg
+1 0 0 RG
+-821.02 458.449 m
+-821.02 457.347 l
+S
+0 0 0 rg
+BT
+/F1 36 Tf
+1 0 0 1 -724.8 938.5 Tm
+0 Tw
+(#num) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -724.8 899.5 Tm
+0 Tw
+(    0               {}      0 ) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -724.8 860.5 Tm
+0 Tw
+(    1             {80}     80   {0}) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -724.8 821.5 Tm
+0 Tw
+(    2           {50,70}   70   {1}) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -724.8 782.5 Tm
+0 Tw
+(    2           {80,50}   80   {0}) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -724.8 743.5 Tm
+0 Tw
+(    3        {50,70,100}  150   {0,2}) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -724.8 704.5 Tm
+0 Tw
+(    3        {20,100,70}  100  {1}) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -724.8 665.5 Tm
+0 Tw
+(    3        {2, 80, 91}   93  {0,2}) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -724.8 626.5 Tm
+0 Tw
+(    4        {1,2,3,4}     6    {1,3}) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -724.8 587.5 Tm
+0 Tw
+(    ) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -724.8 548.5 Tm
+0 Tw
+(  ) Tj
+ET
+1 0 0 rg
+BT
+/F1 36 Tf
+1 0 0 1 -433.8 955.2 Tm
+0 Tw
+(If you take i you cannot take i+1) Tj
+ET
+0 0 0 rg
+BT
+/F1 36 Tf
+1 0 0 1 -359.7 991.2 Tm
+0 Tw
+(All marks are >=0) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -701.7 507.5 Tm
+0 Tw
+(Input: Python list a;  ex [1,2,3,4] ) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -701.7 468.5 Tm
+0 Tw
+(                e:expected ans:6) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -701.7 429.5 Tm
+0 Tw
+(def _test1\(self,a:'list', e:'int'\)->'void':) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -701.7 390.5 Tm
+0 Tw
+(        ans = []) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -701.7 351.5 Tm
+0 Tw
+(        maxv = [0]) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -701.7 312.5 Tm
+0 Tw
+(        work = [0]   ) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -701.7 273.5 Tm
+0 Tw
+(        Alg\(a,ans,maxv,work,True\)) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -701.7 234.5 Tm
+0 Tw
+(        assert\(maxv[0] == e\)) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -701.7 195.5 Tm
+0 Tw
+() Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -701.7 156.5 Tm
+0 Tw
+(    ) Tj
+ET
+1 0 0 rg
+BT
+/F1 36 Tf
+1 0 0 1 -249.4 547.7 Tm
+0 Tw
+( 0 1 2 3) Tj
+ET
+0 0 0 rg
+BT
+/F1 28 Tf
+1 0 0 1 -405 426.7 Tm
+0 Tw
+() Tj
+ET
+BT
+/F1 28 Tf
+1 0 0 1 -405 396.7 Tm
+0 Tw
+(    ) Tj
+ET
+1 0 0 rg
+BT
+/F1 28 Tf
+1 0 0 1 -356.4 396.7 Tm
+0 Tw
+(ans = {1,3}) Tj
+ET
+BT
+/F1 28 Tf
+1 0 0 1 -355.2 360.6 Tm
+0 Tw
+(maxv = [6]) Tj
+ET
+0 0 0 rg
+BT
+/F1 28 Tf
+1 0 0 1 -340.9 300.5 Tm
+0 Tw
+() Tj
+ET
+1 0 0 rg
+BT
+/F1 28 Tf
+1 0 0 1 -359.2 317.8 Tm
+0 Tw
+(work =[25]) Tj
+ET
+0 0 0 rg
+BT
+/F1 28 Tf
+1 0 0 1 -212.3 317.8 Tm
+0 Tw
+( HOW MUCH WORK?) Tj
+ET
+1 0 0 rg
+BT
+/F1 36 Tf
+1 0 0 1 -780 169.6 Tm
+0 Tw
+(Question: What courses will you take so that you) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -780 130.6 Tm
+0 Tw
+(            will get maximum marks) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -780 91.57 Tm
+0 Tw
+(               1.You return max marks) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -780 52.57 Tm
+0 Tw
+(               2.An array of list of course indices) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -780 13.57 Tm
+0 Tw
+(               \(must be between 0 to n-1\)) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -780 -25.43 Tm
+0 Tw
+(               If you take i you cannot take i+1) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -780 -64.43 Tm
+0 Tw
+(               3. How much work you did) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -780 -103.4 Tm
+0 Tw
+(               4. If \(show==True\) show each step) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -780 -142.4 Tm
+0 Tw
+() Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -780 -181.4 Tm
+0 Tw
+(Time Complexity = ? ) Tj
+ET
+BT
+/F1 36 Tf
+1 0 0 1 -780 -220.4 Tm
+0 Tw
+(Space Complexity = ?) Tj
+ET
+1 1 1 rg
+0 0 0 RG
+-833.062 206.281 m
+-833.062 -250.092 l
+150.615 -250.092 l
+150.615 206.281 l
+-833.062 206.281 l
+s
+0 0 0 rg
+BT
+/F1 36 Tf
+1 0 0 1 -348.3 -78.06 Tm
+0 Tw
+() Tj
+ET
+1 1 1 rg
+-741.88 600.042 m
+-741.88 221.47 l
+88.5371 221.47 l
+88.5371 600.042 l
+-741.88 600.042 l
+s
+endstream
+endobj
+8 0 obj
+4896
+endobj
+10 0 obj
+<<
+/F1 11 0 R
+/F2 12 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F1
+/BaseFont /ComicSansMS,Bold
+/Encoding /WinAnsiEncoding
+/FirstChar 30
+/LastChar 255
+/Widths [ 500 500 434 238 438 843 693 820 654 434 366 366 530 610 434 610
+ 434 512 610 610 610 610 610 610 610 610 610 610 434 434 610 610
+ 610 566 931 731 630 619 722 625 607 680 768 546 665 611 551 883
+ 813 798 533 876 640 693 696 737 675 1040 724 635 693 376 550 376
+ 610 627 556 556 593 514 587 559 508 531 578 280 403 540 274 777
+ 523 526 535 520 480 487 471 520 486 684 590 553 538 366 421 366
+ 610 500 619 500 434 589 430 675 610 597 556 1241 693 610 1194 500
+ 693 500 500 226 226 434 434 610 441 883 556 883 507 610 897 500
+ 538 635 476 238 610 793 610 610 421 635 556 795 610 639 610 610
+ 795 627 610 610 610 610 556 610 761 610 556 610 610 639 610 610
+ 610 566 731 731 731 731 731 731 1087 619 625 625 625 625 546 546
+ 546 546 722 813 798 798 798 798 798 610 798 737 737 737 737 635
+ 521 534 556 556 556 556 556 556 912 514 559 559 559 559 280 280
+ 280 280 509 523 526 526 526 526 526 610 533 520 520 520 520 553
+ 535 553]
+/FontDescriptor 13 0 R
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F2
+/BaseFont /Arial
+/Encoding /WinAnsiEncoding
+/FirstChar 30
+/LastChar 255
+/Widths [ 750 750 278 278 355 556 556 889 667 191 333 333 389 584 278 333
+ 278 278 556 556 556 556 556 556 556 556 556 556 278 278 584 584
+ 584 556 1015 667 667 722 722 667 611 778 722 278 500 667 556 833
+ 722 778 667 778 722 667 611 722 667 944 667 667 611 278 278 278
+ 469 556 333 556 556 500 556 556 278 556 556 222 222 500 222 833
+ 556 556 556 556 333 500 278 556 500 722 500 500 500 334 260 334
+ 584 750 556 750 222 556 333 1000 556 556 333 1000 667 333 1000 750
+ 611 750 750 222 222 333 333 350 556 1000 333 1000 500 333 944 750
+ 500 667 278 333 556 556 556 556 260 556 333 737 370 556 584 333
+ 737 552 400 549 333 333 333 576 537 333 333 333 365 556 834 834
+ 834 611 667 667 667 667 667 667 1000 722 667 667 667 667 278 278
+ 278 278 722 722 778 778 778 778 778 584 778 722 722 722 722 667
+ 667 611 556 556 556 556 556 556 889 500 556 556 556 556 278 278
+ 278 278 556 556 556 556 556 556 556 549 611 556 556 556 556 500
+ 556 500]
+/FontDescriptor 14 0 R
+>>
+endobj
+13 0 obj
+<<
+/Type /FontDescriptor
+/FontName /ComicSansMS,Bold
+/FontBBox [ -337 -303 2867 1102 ]
+/Ascent 1102
+/Descent -292
+/CapHeight 1102
+/XHeight 881
+/ItalicAngle 0
+/Flags 42
+/StemV 120
+>>
+endobj
+14 0 obj
+<<
+/Type /FontDescriptor
+/FontName /Arial
+/FontBBox [ -665 -325 2000 1040 ]
+/Ascent 905
+/Descent -212
+/CapHeight 905
+/XHeight 724
+/ItalicAngle 0
+/Flags 32
+/StemV 70
+>>
+endobj
+9 0 obj
+<<
+>>
+endobj
+xref
+0 15
+0000000000 65535 f
+0000000010 00000 n
+0000000063 00000 n
+0000000135 00000 n
+0000000187 00000 n
+0000000253 00000 n
+0000000422 00000 n
+0000000455 00000 n
+0000005408 00000 n
+0000008141 00000 n
+0000005431 00000 n
+0000005481 00000 n
+0000006610 00000 n
+0000007731 00000 n
+0000007943 00000 n
+trailer
+<<
+/Size 15
+/Root 2 0 R
+/Info 1 0 R
+>>
+startxref
+8166
+%%EOF
