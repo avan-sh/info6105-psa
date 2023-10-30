@@ -12,7 +12,7 @@
 #  All imports here
 ###########################################################
 import sys # For getting Python Version
-#from Exam import *
+from Exam import *
 
 
 ############################################################
@@ -34,6 +34,15 @@ class Test_exam():
     def _test_simple(self):
         a = [1,2,4]
         self._test1(a,5)
+        a =  [1,2,3,4,5,6,7,8,9,10]
+        self._test1(a,30)
+        a = [1,2,3,1]
+        self._test1(a,4)
+        a = [2,7,9,3,1]
+        self._test1(a,12)
+
+        a = [2, 7, 1, 8, 4]
+        self._test1(a, 15)
 
     def _test_hidden(self):
         print("TEST PASSED- Do you belive???.")
