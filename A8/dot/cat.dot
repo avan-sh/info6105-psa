@@ -1,0 +1,9 @@
+digraph g {
+	Bar->Bat [ ]
+	Cab->Car [ ]
+	Cab->Cat [ ]
+	Car->Bar [ ]
+	Mat->Bat [ ]
+	Cat->Mat [ ]
+	Cat->Bat [ ]
+}

@@ -1,0 +1,112 @@
+------------ 13 ------------ 
+UNDIRECTED GRAPH
+Num Vertices = 7
+Num Edges    = 12
+1 Fanouts: 2,3,4
+2 Fanouts: 1,5,4
+3 Fanouts: 1,6,4
+4 Fanouts: 1,2,3,5,7,6
+5 Fanouts: 2,4,7
+6 Fanouts: 3,7,4
+7 Fanouts: 4,5,6
+/Users/avaneesh/GRAD/INFO6205-PSA/A8/dot/13.dot
+## Jagadeesh Vasudevamurthy ####
+digraph g {
+}
+
+------------ 14 ------------ 
+WEIGHTED_UNDIRECTED GRAPH
+Num Vertices = 6
+Num Edges    = 10
+1 Fanouts: 2,3,4
+2 Fanouts: 1,3,5
+3 Fanouts: 1,2,4,5,6
+4 Fanouts: 1,3,6
+5 Fanouts: 2,3,6
+6 Fanouts: 3,4,5
+/Users/avaneesh/GRAD/INFO6205-PSA/A8/dot/14.dot
+## Jagadeesh Vasudevamurthy ####
+digraph g {
+}
+
+------------ 15 ------------ 
+DIRECTED GRAPH
+Num Vertices = 6
+Num Edges    = 6
+A Fanouts: B
+A Fanins: NONE
+B Fanouts: C
+B Fanins: A,D
+E Fanouts: F,D
+E Fanins: C
+F Fanouts: NONE
+F Fanins: E
+D Fanouts: B
+D Fanins: E
+C Fanouts: E
+C Fanins: B
+/Users/avaneesh/GRAD/INFO6205-PSA/A8/dot/15.dot
+## Jagadeesh Vasudevamurthy ####
+digraph g {
+}
+
+------------ 16 ------------ 
+WEIGHTED_DIRECTED GRAPH
+Num Vertices = 5
+Num Edges    = 6
+A Fanouts: C,D
+A Fanins: B,E
+C Fanouts: B,D
+C Fanins: A
+D Fanouts: NONE
+D Fanins: A,C
+B Fanouts: A
+B Fanins: C
+E Fanouts: A
+E Fanins: NONE
+/Users/avaneesh/GRAD/INFO6205-PSA/A8/dot/16.dot
+## Jagadeesh Vasudevamurthy ####
+digraph g {
+}
+
+NOT READ LINE 
+
+------------ cat ------------ 
+DIRECTED GRAPH
+Num Vertices = 6
+Num Edges    = 7
+Bar Fanouts: Bat
+Bar Fanins: Car
+Bat Fanouts: NONE
+Bat Fanins: Bar,Mat,Cat
+Cab Fanouts: Car,Cat
+Cab Fanins: NONE
+Car Fanouts: Bar
+Car Fanins: Cab
+Mat Fanouts: Bat
+Mat Fanins: Cat
+Cat Fanouts: Mat,Bat
+Cat Fanins: Cab
+/Users/avaneesh/GRAD/INFO6205-PSA/A8/dot/cat.dot
+## Jagadeesh Vasudevamurthy ####
+digraph g {
+}
+
+------------ loopparallel ------------ 
+WEIGHTED_DIRECTED GRAPH
+Num Vertices = 4
+Num Edges    = 4
+s Fanouts: 0
+s Fanins: NONE
+0 Fanouts: 1
+0 Fanins: s
+1 Fanouts: 1,t
+1 Fanins: 0,1
+t Fanouts: NONE
+t Fanins: 1
+/Users/avaneesh/GRAD/INFO6205-PSA/A8/dot/loopparallel.dot
+## Jagadeesh Vasudevamurthy ####
+digraph g {
+}
+
+test_graph_representation **Passed**
