@@ -1,0 +1,7 @@
+digraph g {
+label ="['0', '1'] NOLOOP"
+0 [label = <0<BR /><FONT POINT-SIZE="10">1/4</FONT>>]
+1 [label = <1<BR /><FONT POINT-SIZE="10">2/3</FONT>>]
+	edge [dir=none,color=red]
+		0->1
+}

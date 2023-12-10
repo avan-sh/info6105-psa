@@ -1,0 +1,16 @@
+digraph g {
+label ="['Cab', 'Car', 'Cat', 'Bar', 'Mat', 'Bat'] NOLOOP"
+Cab [label = <Cab<BR /><FONT POINT-SIZE="10">5/12</FONT>>]
+Car [label = <Car<BR /><FONT POINT-SIZE="10">6/7</FONT>>]
+Cat [label = <Cat<BR /><FONT POINT-SIZE="10">8/11</FONT>>]
+Bar [label = <Bar<BR /><FONT POINT-SIZE="10">1/4</FONT>>]
+Mat [label = <Mat<BR /><FONT POINT-SIZE="10">9/10</FONT>>]
+Bat [label = <Bat<BR /><FONT POINT-SIZE="10">2/3</FONT>>]
+	edge [color=red]		Bar->Bat
+		Cab->Car
+		Cab->Cat
+		Car->Bar
+		Mat->Bat
+		Cat->Mat
+		Cat->Bat
+}
